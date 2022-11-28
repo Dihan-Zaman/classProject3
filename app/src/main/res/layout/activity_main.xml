@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+<EditText
+
+
+    android:id="@+id/Inputnameid"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:textSize="20sp"
+    android:textStyle="normal"
+    android:hint="@string/yourname"
+    android:inputType="text"
+    android:backgroundTint="@color/black"
+    android:textCursorDrawable="@null"
+
+    android:autofillHints="" />
+
+    <EditText
+
+        android:id="@+id/phoneid"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        android:textStyle="normal"
+
+        android:importantForAutofill="no" />
+    <EditText
+
+        android:id="@+id/emailid"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        android:textStyle="normal"
+
+        android:importantForAutofill="no" />
+      <EditText
+
+        android:id="@+id/bloodlid"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/blood"
+        android:inputType="text"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        android:textStyle="normal"
+
+          android:importantForAutofill="no" />
+          <EditText
+
+        android:id="@+id/addressid"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/address"
+        android:inputType="text"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        android:textStyle="normal"
+
+              android:importantForAutofill="no" />
+
+
+    <EditText
+
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        android:textStyle="normal"
+
+        android:importantForAutofill="no" />
+
+
+    <Button
+        android:id="@+id/signup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+
+        />
+    <TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="80sp"
+    android:text="@string/empty"
+        android:textSize="20sp"
+
+    ></TextView>
+    <Button
+        android:id="@+id/login1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+
+        />
+
+</LinearLayout>

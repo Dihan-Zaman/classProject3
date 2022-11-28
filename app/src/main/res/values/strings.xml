@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Full app</string>
+    <string name="yourname">Enter Your name :</string>
+    <string name="phone">Enter Your phone number:</string>
+    <string name="email">Enter Email address:</string>
+    <string name="age">Enter your age:</string>
+    <string name="blood">Enter blood group</string>
+    <string name="address">Enter your address </string>
+    <string name="signup">Sign Up</string>
+    <string name="password">Enter your password</string>
+    <string name="empty">           \n\nAlready signed up  ?  </string>
+    <string name="login">Log In</string>
+
+
+</resources>
